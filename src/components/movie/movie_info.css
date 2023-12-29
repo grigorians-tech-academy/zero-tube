@@ -1,0 +1,49 @@
+.movie {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 40px;
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+  }
+}
+
+.poster img {
+  box-shadow: 0 0 30px rgba(0, 0, 0, 0.4);
+}
+
+.description {
+  color: rgba(255, 255, 255, 0.9);
+  padding: 0 40px;
+
+  @media (max-width: 768px) {
+    padding: 0;
+    margin-top: 30px;
+  }
+}
+
+.movie p {
+  margin: 0 0 20px;
+  font-size: 18px;
+}
+
+.stat-row .title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-right: 15px;
+}
+
+.backdrop {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100vw;
+  z-index: -1;
+  filter: blur(10px);
+  opacity: 0.5;
+}

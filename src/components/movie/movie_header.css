@@ -1,0 +1,13 @@
+.movie-header .logo img {
+  max-height: 80px;
+}
+
+.movie-header h1 {
+  margin-top: 20px;
+}
+
+.movie-header .tagline {
+  font-size: 18px;
+  font-weight: 700;
+  color: rgba(255, 255, 255, 0.7);
+}

@@ -1,0 +1,32 @@
+.production-companies h2 {
+  margin: 30px 0;
+}
+
+.companies {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px;
+  margin-bottom: 20px;
+}
+
+.company {
+  align-items: center;
+  background: #FFF;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 0;
+}
+
+.company img {
+  width: 130px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.company .name {
+  margin-top: 20px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #30336b;
+}
